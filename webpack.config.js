@@ -40,7 +40,7 @@ module.exports = {
 
             // 静态资源引入模块
             {
-                test: /\.(woff|ttf|gif|png|jpg|svg|mp3|mp4|avi)/,
+                test: /\.(woff|ttf|gif|png|jpg|svg|mp3|mp4|avi|eot)/,
                 use: [
                     // 小于10KB的才打包
                     {
